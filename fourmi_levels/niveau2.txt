@@ -1,6 +1,13 @@
-f=5
-S1
-S2
-Sv - S1
-S1 - S2
-S2 - Sd
+// Définition des salles
+anthill.addRoom("S_v", 1000); // vestibule
+anthill.addRoom("S1");
+anthill.addRoom("S2");
+anthill.addRoom("S_d", 1000); // dortoir
+
+// Connexions
+anthill.addTunnel("S_v", "S1");
+anthill.addTunnel("S1", "S2");
+anthill.addTunnel("S2", "S_d");
+
+// Ajout de fourmis
+anthill.addAnts(5);

@@ -1,3 +1,0 @@
-/home/helios/laplateforme/Projets/uneviedefourmi/build/CMakeFiles/uneviedefourmi.dir
-/home/helios/laplateforme/Projets/uneviedefourmi/build/CMakeFiles/edit_cache.dir
-/home/helios/laplateforme/Projets/uneviedefourmi/build/CMakeFiles/rebuild_cache.dir

@@ -1,10 +1,17 @@
-f=5
-S1
-S2
-S3
-S4
-Sv - S1
-S1 - S2
-S4 - Sd
-S1 - S4
-S2 - S3
+// Définition des salles
+anthill.addRoom("S_v", 1000);
+anthill.addRoom("S1");
+anthill.addRoom("S2");
+anthill.addRoom("S3");
+anthill.addRoom("S4");
+anthill.addRoom("S_d", 1000);
+
+// Connexions
+anthill.addTunnel("S_v", "S1");
+anthill.addTunnel("S1", "S2");
+anthill.addTunnel("S1", "S4");
+anthill.addTunnel("S2", "S3");
+anthill.addTunnel("S4", "S_d");
+
+// Ajout de fourmis
+anthill.addAnts(5);
